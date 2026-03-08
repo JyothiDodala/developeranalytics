@@ -13,8 +13,6 @@ import { ResumeTips } from "@/components/ResumeTips";
 import { EmptyState } from "@/components/EmptyState";
 import { AlertCircle } from "lucide-react";
 
-const SECTIONS = ["profile", "stats", "repos", "skills", "score", "portfolio", "resume"] as const;
-
 const Index = () => {
   const { data, loading, error, analyze } = useGitHub();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
