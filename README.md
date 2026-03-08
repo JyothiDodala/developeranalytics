@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# DevInsight – AI Portfolio Analyzer
 
-## Project info
+**DevInsight** is a modern full-stack web application that analyzes a developer's GitHub profile and provides AI-powered insights about their skills, projects, and activity. It helps developers understand their strengths, track progress, and get suggestions to improve their career prospects.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **GitHub Profile Analyzer** – Fetches profile info, avatar, bio, followers, and repository count.
+- **Repository Analysis** – Lists repositories with language, stars, forks, description, and last updated date.
+- **Skills Extraction** – Identifies top programming languages used across repositories and displays them as badges.
+- **Developer Score** – Generates a developer performance score based on activity, stars, and repository contributions.
+- **Contribution Analytics** – Visualizes activity, most popular repos, and coding trends using charts.
+- **Portfolio Feedback** – Users can paste portfolio links and receive improvement suggestions.
+- **Resume Tips** – Users can paste resume text and get AI-powered recommendations.
+- **Dashboard Layout** – Modern dashboard with sidebar navigation, profile overview, analytics, and skills visualization.
+- **Responsive UI** – Clean, mobile-friendly, card-based layout with charts and badges.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+**Frontend:** React.js, Tailwind CSS  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB  
+**APIs:** GitHub API  
+**Optional AI Features:** OpenAI API  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Project Modules
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. GitHub Profile Analyzer
+Fetches and displays profile info and public repositories.
 
-Follow these steps:
+### 2. Repository Analysis
+Shows all repositories with:
+- Name
+- Description
+- Programming language
+- Stars & forks
+- Last updated date
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 3. Skills Extraction
+Identifies most used programming languages across repositories.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 4. Developer Score
+Calculates a score (0–100) based on repositories, contributions, and popularity.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 5. Portfolio & Resume Suggestions
+Provides AI-driven recommendations to improve portfolio and resume.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 6. Dashboard
+Displays profile stats, analytics charts, and developer score in a clean dashboard layout.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Installation
 
-**Use GitHub Codespaces**
+1. Clone the repository:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/yourusername/devinsight.git
 
-## What technologies are used for this project?
+2. Navigate to the project folder:
+   cd devinsight
 
-This project is built with:
+3. Install dependencies:
+    npm install
+4. Start the application:
+   npm start
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Future Improvements
 
-## How can I deploy this project?
+AI-powered mock interview simulator
+Job recommendation system
+Email notifications for updates
+More detailed analytics for repositories
+Integration with other developer platforms (e.g., LinkedIn, GitLab)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Project Purpose
 
-## Can I connect a custom domain to my Lovable project?
+DevInsight was developed to help developers and students analyze their GitHub portfolio, understand strengths and weaknesses, and get actionable suggestions for career growth.
 
-Yes, you can!
+Author
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Jyothi Dodali
+B.Tech – Computer Science Engineering (AI & ML)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Connect With Me
+
+GitHub: https://github.com/JyothiDodala
+
+LinkedIn: (https://www.linkedin.com/in/jyothi-dodali-38b679259)
